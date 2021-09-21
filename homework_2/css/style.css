@@ -1,0 +1,87 @@
+
+.sect1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box{
+    width: 334px;
+    font-size: 18px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+ .p{
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    background-color: #1e8eab;
+}
+.p1{
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    background-color:#fcb045;
+}
+.p2{
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    background-color: #9c94e9;
+
+}
+
+
+
+/* section 2 */
+.sect2{
+    margin: 50px;
+}
+ .sect2 img{
+     width: 905px;
+ }
+
+ .sect2-div{
+     position: relative;
+ }
+
+ .block{
+     position: absolute;
+     top: 120px;
+     right: 0px;
+     width: 567px;
+     height: 300px ;
+     transform: rotate(20deg);
+     background-color: #fc466b;
+     
+
+ }
+
+.block p{
+    font-size: 26px;
+    color: white;
+    margin: 80px 0 0 40px;
+    
+    
+    
+
+}
+
+
+
+
+
+
+/* section 3 */
+
+.animation-div{
+    width: 100px;
+    height: 100px;
+    background-color: #31ab1e;
+    margin: 50px;
+    position: absolute;
+    border-radius: 100px;
+    animation: myanim 5s infinite;
+}
+
+@keyframes myanim{
+    from{left: 0; background-color: #1e8eab; rotate:(20deg)}
+    to{left: 1000px; background-color: yellow;}
+}
